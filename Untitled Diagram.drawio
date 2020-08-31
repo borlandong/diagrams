@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-31T06:49:10.249Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="dzEoMy3EE4hnu795Pldh" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-31T06:54:48.601Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="s8JQwtoliX02QAsrTvGt" version="13.6.5" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="1422" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="781" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,6 +48,15 @@
         </mxCell>
         <mxCell id="N3X8aQaMnxB1786Qqk0I-116" value="IOTC_LAYER_STATE_CLOSED" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontFamily=Courier New;" vertex="1" parent="N3X8aQaMnxB1786Qqk0I-111">
           <mxGeometry y="106" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N3X8aQaMnxB1786Qqk0I-119" value="iotc_layer_type_t" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="30" y="326" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="N3X8aQaMnxB1786Qqk0I-120" value="iotc_layer_type_id_t layer_type_id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontFamily=Courier New;" vertex="1" parent="N3X8aQaMnxB1786Qqk0I-119">
+          <mxGeometry y="26" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N3X8aQaMnxB1786Qqk0I-121" value="iotc_layer_interface_t layer_interface" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontFamily=Courier New;" vertex="1" parent="N3X8aQaMnxB1786Qqk0I-119">
+          <mxGeometry y="46" width="300" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
